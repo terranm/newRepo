@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ubisam.example1.Example1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.699 s -- in com.ubisam.example1.Example1ApplicationTests
