@@ -42,11 +42,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.querydsl</groupId>
+			<artifactId>querydsl-jpa</artifactId>
+		</dependency>
 
 		<!-- Rest -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.u2ware.common</groupId>
+			<artifactId>u2ware-common-data</artifactId>
+			<version>3.5.11</version>
 		</dependency>
 
 		<!-- JDBC -->
@@ -59,18 +68,13 @@
 		<!-- ADD -->
 		<dependency>
 			<groupId>io.u2ware.common</groupId>
-			<artifactId>u2ware-common-data</artifactId>
-			<version>3.4.13</version>
-		</dependency>
-		<dependency>
-			<groupId>io.u2ware.common</groupId>
 			<artifactId>u2ware-common-stomp</artifactId>
-			<version>3.4.13</version>
+			<version>3.5.11</version>
 		</dependency>
 		<dependency>
 			<groupId>io.u2ware.common</groupId>
-			<artifactId>u2ware-common-docs</artifactId>
-			<version>3.4.13</version>
+			<artifactId>u2ware-common-oauth2</artifactId>
+			<version>3.5.11</version>
 		</dependency>
 
 		<!-- test -->
@@ -85,15 +89,15 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.u2ware.common</groupId>
-			<artifactId>u2ware-common-oauth2</artifactId>
-			<version>3.4.13</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.u2ware.common</groupId>
+			<artifactId>u2ware-common-docs</artifactId>
+			<version>3.5.11</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

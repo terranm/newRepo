@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "example1"
+		},
+		{
+			"path": "frontend3"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
