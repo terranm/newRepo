@@ -1,8 +1,6 @@
 
 package com.ubisam.example1.api.helloes;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import com.ubisam.example1.domain.Hello;
 
 import io.u2ware.common.data.jpa.repository.RestfulJpaRepository;
