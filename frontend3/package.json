@@ -17,6 +17,7 @@
     "@fontsource/roboto": "^5.2.9",
     "@mdi/font": "7.4.47",
     "axios": "^1.13.6",
+    "stompjs": "^2.3.3",
     "vue": "^3.5.26",
     "vue-i18n": "^11.2.7",
     "vue-router": "^4.6.4",

@@ -37,6 +37,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/stomp/hello': RouteRecordInfo<
+      '/stomp/hello',
+      '/stomp/hello',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/world/hello': RouteRecordInfo<
       '/world/hello',
       '/world/hello',
@@ -66,6 +73,12 @@ declare module 'vue-router/auto-routes' {
     'src/pages/hello.vue': {
       routes:
         | '/hello'
+      views:
+        | never
+    }
+    'src/pages/stomp/hello.vue': {
+      routes:
+        | '/stomp/hello'
       views:
         | never
     }
