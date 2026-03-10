@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "frontend3"
+		},
+		{
+			"path": "csharp1"
 		}
 	],
 	"settings": {
