@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "csharp1"
+		},
+		{
+			"path": "python1"
 		}
 	],
 	"settings": {
