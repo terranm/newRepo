@@ -27,7 +27,7 @@ namespace StompRelayClient
             // 3. 사용자 입력 발신 무한 루프
             while (true)
             {
-                string? input = Console.ReadLine();
+                string? input = Console.ReadLine(); 
                 if (input?.ToLower() == "exit") break;
 
                 if (!string.IsNullOrWhiteSpace(input))
