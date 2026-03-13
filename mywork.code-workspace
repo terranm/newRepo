@@ -11,6 +11,12 @@
 		},
 		{
 			"path": "python1"
+		},
+		{
+			"path": "UbisamCSharpStompLibrary"
+		},
+		{
+			"path": "csharp2"
 		}
 	],
 	"settings": {
