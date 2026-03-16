@@ -242,18 +242,18 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Ubisam.Stomp/1.0.8": {
+      "Ubisam.Stomp/1.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "10.0.4",
-          "Microsoft.Extensions.Configuration.Json": "10.0.4",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.1",
           "Websocket.Client": "5.3.0"
         },
         "compile": {
-          "lib/net10.0/Ubisam.Stomp.dll": {}
+          "lib/net8.0/Ubisam.Stomp.dll": {}
         },
         "runtime": {
-          "lib/net10.0/Ubisam.Stomp.dll": {}
+          "lib/net8.0/Ubisam.Stomp.dll": {}
         }
       },
       "Websocket.Client/5.3.0": {
@@ -702,14 +702,14 @@
         "system.reactive.nuspec"
       ]
     },
-    "Ubisam.Stomp/1.0.8": {
-      "sha512": "eAWDR8q23Krd1t6yZxKEd22l6MBx/9ZbKPv77SGdnPvyXAf2J5jrHVnxpmzeg6FU8cpvsWJQuiBaykpv7cNjdg==",
+    "Ubisam.Stomp/1.1.2": {
+      "sha512": "gk69jnT8Ntf26N6t+dPVul+tWrvSWBIuOGEJ6POwuBd832OaTFYE4c9wuk27ajZY6GjTchOYgSUhDuC0wbzgMg==",
       "type": "package",
-      "path": "ubisam.stomp/1.0.8",
+      "path": "ubisam.stomp/1.1.2",
       "files": [
         ".nupkg.metadata",
-        "lib/net10.0/Ubisam.Stomp.dll",
-        "ubisam.stomp.1.0.8.nupkg.sha512",
+        "lib/net8.0/Ubisam.Stomp.dll",
+        "ubisam.stomp.1.1.2.nupkg.sha512",
         "ubisam.stomp.nuspec"
       ]
     },
@@ -740,7 +740,7 @@
     "net10.0": [
       "Microsoft.Extensions.Configuration.Binder >= 10.0.5",
       "Microsoft.Extensions.Configuration.Json >= 10.0.5",
-      "Ubisam.Stomp >= 1.0.8"
+      "Ubisam.Stomp >= 1.1.2"
     ]
   },
   "packageFolders": {
@@ -768,8 +768,7 @@
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\Ihe box\\Desktop\\Work\\asdf\\csharp3": {}
       },
       "frameworks": {
         "net10.0": {
@@ -803,7 +802,7 @@
           },
           "Ubisam.Stomp": {
             "target": "Package",
-            "version": "[1.0.8, )"
+            "version": "[1.1.2, )"
           }
         },
         "imports": [
